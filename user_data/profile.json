@@ -1,0 +1,24 @@
+{
+  "selected_skins": [
+    "custom_john",
+    "gelo",
+    "custom_fantasma",
+    "coral"
+  ],
+  "volume": 0.35,
+  "muted": false,
+  "bots": [
+    0,
+    2,
+    2,
+    3
+  ],
+  "difficulty": "hard",
+  "chaser_choice": "random",
+  "tournament_rounds": 3,
+  "brightness": 1.0,
+  "music_volume": 0.75,
+  "sfx_volume": 1.0,
+  "reduced_motion": false,
+  "show_intro": true
+}

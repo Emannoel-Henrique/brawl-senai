@@ -1,0 +1,68 @@
+{
+  "generated_on": "2026-10-23",
+  "tool": "Built-in image_gen.imagegen",
+  "references_folder": "fotos para skins",
+  "notes": "User-provided photographs, used only as identity and clothing references at the user's request. Names come from filenames. Original photographs remain unchanged. No CLI or API key used. Original generated PNG RGBA files copied intact; no recoloring, cropping or alpha alteration.",
+  "assets": [
+    {
+      "file": "emannoel.png",
+      "skin_key": "party_emannoel",
+      "references": [
+        "emannoel_frente.jpg",
+        "emannoel_lado.jpg",
+        "emannoel_costas.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one production character sprite for AFTERSHIFT, a local multiplayer side-view industrial arcade brawler. The three input photographs are identity/clothing references of the SAME person: image 1 front, image 2 side, image 3 back. Use them only as reference, do not reproduce the photograph backdrop. Create exactly ONE friendly chibi caricature of this person, full body visible, standing in a ready idle pose turned 3/4 toward screen RIGHT, both empty hands relaxed at waist level and separated from torso. Two-and-a-half heads tall, oversized clearly recognizable human face, bold nearly black 5px outline, crisp cel-shaded vector-like cartoon, chunky simplified silhouette readable at 100px height, slightly oversized sneakers, small industrial utility belt and tiny elbow guards only; retain human clothes rather than robot armor. Preserve this reference's very short dark buzz-cut hair, narrow face, prominent ears, discreet thin moustache, warm natural skin, red upper / off-white lower short sleeve shirt, black full-length track pants, dark navy sneakers with teal sole accents. Face fully uncovered, no helmet, no eyewear, no facial hair added beyond faint moustache. Character centered, feet on same baseline, silhouette fills around 85 percent of image height; generous transparent margin. The shoulders, short sleeves and shirt color split should stay recognizable. TRUE TRANSPARENT background, no floor shadow, no environment, no UI, no extra objects, no weapons, no text, no watermark. Render a single complete sprite, not a sheet or multiple views."
+    },
+    {
+      "file": "john.png",
+      "skin_key": "party_john",
+      "references": [
+        "john_frente.jpg",
+        "john_lado.jpg",
+        "john_costas.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one production character sprite for AFTERSHIFT, an industrial side-view arcade brawler. The three input photographs are identity/clothing references of the SAME person: image 1 front, image 2 side, image 3 back. Generate exactly ONE friendly recognizable chibi caricature from these photographs. Crisp CEL SHADED CARTOON with simple flat shapes and thick nearly-black contour, NO painterly texture. Short chunky chibi body about 2.5 heads tall (giant head, small torso and short legs). One full-body 3/4 right-facing idle pose, head turned slightly right, both empty hands loose near hips and away from torso, feet apart; preserve face, hair, hairline and clothes from reference. Human face uncovered, no helmets, no masks, no robot body. Tiny utility belt and elbow guards are acceptable for the game theme; otherwise clothing remains recognizable. Strong clean shape readable at 100 px tall. Character centered, silhouette fills 85% of canvas height, feet visible, transparent margin. TRUE TRANSPARENT background with completely clear alpha surrounding character; NO glow, NO shadow, NO colored haze, NO floor or backdrop. No weapon, no extra character, no multiple poses, no text, no logo, no watermark. Distinctive identity: short thick dark wavy hair with a raised front quiff, youthful clean shaven face and broad brows. Red top/off-white lower short-sleeve shirt, black full length track pants, black sneakers with subtle ivory accents."
+    },
+    {
+      "file": "julio.png",
+      "skin_key": "party_julio",
+      "references": [
+        "julio_frente.jpg",
+        "julio_lado.jpg",
+        "julio_costa.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one production character sprite for AFTERSHIFT, an industrial side-view arcade brawler. The three input photographs are identity/clothing references of the SAME person: image 1 front, image 2 side, image 3 back. Generate exactly ONE friendly recognizable chibi caricature from these photographs. Crisp CEL SHADED CARTOON with simple flat shapes and thick nearly-black contour, NO painterly texture. Short chunky chibi body about 2.5 heads tall (giant head, small torso and short legs). One full-body 3/4 right-facing idle pose, head turned slightly right, both empty hands loose near hips and away from torso, feet apart; preserve face, hair, hairline and clothes from reference. Human face uncovered, no helmets, no masks, no robot body. Tiny utility belt and elbow guards are acceptable for the game theme; otherwise clothing remains recognizable. Strong clean shape readable at 100 px tall. Character centered, silhouette fills 85% of canvas height, feet visible, transparent margin. TRUE TRANSPARENT background with completely clear alpha surrounding character; NO glow, NO shadow, NO colored haze, NO floor or backdrop. No weapon, no extra character, no multiple poses, no text, no logo, no watermark. Distinctive identity: fluffy voluminous dark curly hair falling into forehead, youthful clean shaven face. Off-white cream T-shirt with tiny blue chest mark (no lettering), black full length track pants with thin red side seam, ivory sneakers with black heel accents."
+    },
+    {
+      "file": "luiz.png",
+      "skin_key": "party_luiz",
+      "references": [
+        "luiz_frente.jpg",
+        "luiz_lado.jpg",
+        "luiz_costas.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one production character sprite for AFTERSHIFT, an industrial side-view arcade brawler. The three input photographs are identity/clothing references of the SAME person: image 1 front, image 2 side, image 3 back. Generate exactly ONE friendly recognizable chibi caricature from these photographs. Crisp CEL SHADED CARTOON with simple flat shapes and thick nearly-black contour, NO painterly texture. Short chunky chibi body about 2.5 heads tall (giant head, small torso and short legs). One full-body 3/4 right-facing idle pose, head turned slightly right, both empty hands loose near hips and away from torso, feet apart; preserve face, hair, hairline and clothes from reference. Human face uncovered, no helmets, no masks, no robot body. Tiny utility belt and elbow guards are acceptable for the game theme; otherwise clothing remains recognizable. Strong clean shape readable at 100 px tall. Character centered, silhouette fills 85% of canvas height, feet visible, transparent margin. TRUE TRANSPARENT background with completely clear alpha surrounding character; NO glow, NO shadow, NO colored haze, NO floor or backdrop. No weapon, no extra character, no multiple poses, no text, no logo, no watermark. Distinctive identity: short dark tousled hair with long fringe swept partly across forehead and close-cut sides, a visible neat thin moustache, rounded face, stockier robust body silhouette, warm natural skin. Cream off-white roomy T-shirt with tiny blue chest mark (no lettering), black knee-length shorts, bare lower legs, black sneakers with blue accents and off-white soles."
+    },
+    {
+      "file": "vini.png",
+      "skin_key": "party_vini",
+      "references": [
+        "vini_frente.jpg",
+        "vini_lado.jpg",
+        "vini_lcostas.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one production character sprite for AFTERSHIFT, an industrial side-view arcade brawler. The three input photographs are identity/clothing references of the SAME person: image 1 front, image 2 side, image 3 back. Generate exactly ONE friendly recognizable chibi caricature from these photographs. Crisp CEL SHADED CARTOON with simple flat shapes and thick nearly-black contour, NO painterly texture. Short chunky chibi body about 2.5 heads tall (giant head, small torso and short legs). One full-body 3/4 right-facing idle pose, head turned slightly right, both empty hands loose near hips and away from torso, feet apart; preserve face, hair, hairline and clothes from reference. Human face uncovered, no helmets, no masks, no robot body. Tiny utility belt and elbow guards are acceptable for the game theme; otherwise clothing remains recognizable. Strong clean shape readable at 100 px tall. Character centered, silhouette fills 85% of canvas height, feet visible, transparent margin. TRUE TRANSPARENT background with completely clear alpha surrounding character; NO glow, NO shadow, NO colored haze, NO floor or backdrop. No weapon, no extra character, no multiple poses, no text, no logo, no watermark. Distinctive identity: straight dark long hair tied in a short LOW PONYTAIL at nape (must be clearly visible behind head), ROUND THIN BLACK GLASSES with transparent lenses (eyes visible), small thin moustache and subtle chin stubble, soft oval face. Red upper/off-white lower short sleeve shirt layered OVER light gray long sleeves gathered near elbows, black full length track pants, bright LIME GREEN sneakers with navy accents."
+    },
+    {
+      "file": "yan.png",
+      "skin_key": "party_yan",
+      "references": [
+        "yan_frente.jpg",
+        "yan_lado.jpg",
+        "yan_costas.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one production character sprite for AFTERSHIFT, an industrial side-view arcade brawler. The three input photographs are identity/clothing references of the SAME person: image 1 front, image 2 side, image 3 back. Generate exactly ONE friendly recognizable chibi caricature from these photographs. Crisp CEL SHADED CARTOON with simple flat shapes and thick nearly-black contour, NO painterly texture. Short chunky chibi body about 2.5 heads tall (giant head, small torso and short legs). One full-body 3/4 right-facing idle pose, head turned slightly right, both empty hands loose near hips and away from torso, feet apart; preserve face, hair, hairline and clothes from reference. Human face uncovered, no helmets, no masks, no robot body. Tiny utility belt and elbow guards are acceptable for the game theme; otherwise clothing remains recognizable. Strong clean shape readable at 100 px tall. Character centered, silhouette fills 85% of canvas height, feet visible, transparent margin. TRUE TRANSPARENT background with completely clear alpha surrounding character; NO glow, NO shadow, NO colored haze, NO floor or backdrop. No weapon, no extra character, no multiple poses, no text, no logo, no watermark. Distinctive identity: short straight dark hair with a thick irregular fringe across forehead, youthful clean shaven face and large alert eyes. Oversized BLACK HOODIE with hood down and large plain red rectangular chest patch (no lettering), black full length track pants with red piping, black/white/red high-top sneakers. Match the very distinctive dark outfit, do not replace with a T-shirt."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "key": "custom_meu_visual",
+  "name": "MEU VISUAL",
+  "primary": "#FF7550",
+  "secondary": "#192C40",
+  "accent": "#D7F263",
+  "pattern": "circuit",
+  "hat": "crown",
+  "sprite": null
+}

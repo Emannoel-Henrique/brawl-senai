@@ -1,0 +1,11 @@
+{
+  "key": "custom_fantasma",
+  "name": "FANTASMA",
+  "primary": "#192C40",
+  "secondary": "#192C40",
+  "accent": "#4369AE",
+  "pattern": "split",
+  "hat": "none",
+  "sprite": null,
+  "version": 1
+}

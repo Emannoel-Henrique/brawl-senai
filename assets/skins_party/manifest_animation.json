@@ -1,0 +1,1569 @@
+{
+  "version": 1,
+  "tool": "image_gen.imagegen (built-in)",
+  "created": "2026-10-23",
+  "coordinate_system": "frame_rects=[x,y,width,height] in atlas pixels; frame_pivots=[x,y] local to each frame_rect; body_height is a fraction of atlas_height / rows. Preserve one scale for all frames and use explicit pivots.",
+  "notes": "Sixteen genuinely articulated frames per person; original source portraits and source photographs are preserved. Keep the largest connected alpha component inside each frame_rect at runtime to remove fragments belonging to adjacent frames.",
+  "assets": {
+    "emannoel": {
+      "source": "animations/emannoel.png",
+      "reference": "emannoel.png",
+      "columns": 4,
+      "rows": 4,
+      "actions": {
+        "idle": {
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        "run": {
+          "frames": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        "jump": {
+          "frames": [
+            10
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "fall": {
+          "frames": [
+            11
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "attack": {
+          "frames": [
+            12,
+            13
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "victory": {
+          "frames": [
+            14,
+            15
+          ],
+          "fps": 5,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve. Asset type: real multiframe 2D game character animation sprite atlas. Edit the supplied finished game sprite into an EXACTLY FOUR COLUMN by FOUR ROW animation sheet, 16 frames in reading order. Preserve the reference character's recognizable face, hairstyle, clothes, colors, shoes, stylized cartoon illustration rendering and outlined linework. Keep every frame the SAME character, full body, THREE-QUARTER RIGHT facing and moving to the RIGHT, hands empty. Pose limbs independently: do NOT make sixteen copies of the same pose or rotate/translate the unchanged image.\nLAYOUT: square canvas, 1024x1024 or1536x1536; exactly4x4 equal square cells, no padding between cells beyond transparent sprite margins. Each character occupies about75-82% of cell height, horizontally centered x50%; soles bottom at y91% of cell in grounded poses. Keep head scale, proportions, camera angle and baseline identical. Leave clear transparent margins, no limb or hair crosses cell borders. Transparent alpha BACKGROUND: no color backdrop, shadows, halo/aura, floor, grid lines, labels, text or numbers.\nFRAME CONTENT by reading order:\nFirst row frames0,1,2,3: four relaxed IDLE keyframes breathing subtly, one blink, shoulders inhale/exhale, same standing baseline.\nSecond row frames4,5,6,7: RUN RIGHT first four keyframes with clearly alternating left/right arm and leg motion: front-foot reach opposite arm forward, compression with knees bent, passing pose with lifted knee, opposite-leg reach.\nThird row frames8,9,10,11: RUN RIGHT continuation opposite compression and passing completing six-pose cycle(8,9); then JUMP rising knees lifted arms balanced(10); then FALL descending legs stretched and arms up(11).\nFourth row frames12,13,14,15: MELEE wind-up rightward with raised EMPTY hands(12), then forward punch/slash follow-through rightward with EMPTY right hand extended(13); VICTORY first with both arms raised(14), then smiling one-fist pump overhead with other arm bent(15).\nCrisp coherent sprite poses suitable to play in sequence, not story panels. No weapons, effects, props, furniture or extra people. Return just the transparent animation sheet.\nCHARACTER IDENTITY: EMANNOEL: same very short dark hair, thin moustache, red upper/white lower short sleeve T-shirt, black elbow pads, black baggy trousers, blue/turquoise trainers.",
+      "frame_rects": [
+        [
+          97,
+          0,
+          161,
+          317
+        ],
+        [
+          406,
+          0,
+          155,
+          317
+        ],
+        [
+          711,
+          1,
+          154,
+          316
+        ],
+        [
+          1019,
+          2,
+          156,
+          315
+        ],
+        [
+          53,
+          313,
+          239,
+          302
+        ],
+        [
+          394,
+          322,
+          168,
+          291
+        ],
+        [
+          675,
+          313,
+          232,
+          298
+        ],
+        [
+          966,
+          315,
+          268,
+          294
+        ],
+        [
+          35,
+          623,
+          258,
+          291
+        ],
+        [
+          365,
+          631,
+          224,
+          280
+        ],
+        [
+          659,
+          600,
+          264,
+          275
+        ],
+        [
+          1004,
+          620,
+          221,
+          292
+        ],
+        [
+          40,
+          920,
+          266,
+          308
+        ],
+        [
+          348,
+          920,
+          281,
+          308
+        ],
+        [
+          689,
+          909,
+          211,
+          326
+        ],
+        [
+          1001,
+          901,
+          203,
+          334
+        ]
+      ],
+      "frame_pivots": [
+        [
+          80,
+          315.0
+        ],
+        [
+          77,
+          315.0
+        ],
+        [
+          77,
+          314.0
+        ],
+        [
+          78,
+          313.0
+        ],
+        [
+          124,
+          297.0
+        ],
+        [
+          89,
+          288.0
+        ],
+        [
+          113,
+          297.0
+        ],
+        [
+          131,
+          295.0
+        ],
+        [
+          142,
+          289
+        ],
+        [
+          118,
+          281
+        ],
+        [
+          129,
+          312
+        ],
+        [
+          93,
+          292
+        ],
+        [
+          137,
+          309.5
+        ],
+        [
+          135,
+          309.5
+        ],
+        [
+          99,
+          320.5
+        ],
+        [
+          96,
+          328.5
+        ]
+      ],
+      "body_height": 0.9968102073365231,
+      "image_size": [
+        1254,
+        1254
+      ],
+      "row_baselines": [
+        315.0,
+        610.0,
+        912,
+        1229.5
+      ],
+      "frame_grips": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          247,
+          120
+        ],
+        [
+          271,
+          110
+        ],
+        null,
+        null
+      ]
+    },
+    "john": {
+      "source": "animations/john.png",
+      "reference": "john.png",
+      "columns": 4,
+      "rows": 4,
+      "actions": {
+        "idle": {
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        "run": {
+          "frames": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        "jump": {
+          "frames": [
+            10
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "fall": {
+          "frames": [
+            11
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "attack": {
+          "frames": [
+            12,
+            13
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "victory": {
+          "frames": [
+            14,
+            15
+          ],
+          "fps": 5,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve. Asset type: real multiframe 2D game character animation sprite atlas. Edit the supplied finished game sprite into an EXACTLY FOUR COLUMN by FOUR ROW animation sheet, 16 frames in reading order. Preserve the reference character's recognizable face, hairstyle, clothes, colors, shoes, stylized cartoon illustration rendering and outlined linework. Keep every frame the SAME character, full body, THREE-QUARTER RIGHT facing and moving to the RIGHT, hands empty. Pose limbs independently: do NOT make sixteen copies of the same pose or rotate/translate the unchanged image.\nLAYOUT: square canvas, 1024x1024 or1536x1536; exactly4x4 equal square cells, no padding between cells beyond transparent sprite margins. Each character occupies about75-82% of cell height, horizontally centered x50%; soles bottom at y91% of cell in grounded poses. Keep head scale, proportions, camera angle and baseline identical. Leave clear transparent margins, no limb or hair crosses cell borders. Transparent alpha BACKGROUND: no color backdrop, shadows, halo/aura, floor, grid lines, labels, text or numbers.\nFRAME CONTENT by reading order:\nFirst row frames0,1,2,3: four relaxed IDLE keyframes breathing subtly, one blink, shoulders inhale/exhale, same standing baseline.\nSecond row frames4,5,6,7: RUN RIGHT first four keyframes with clearly alternating left/right arm and leg motion: front-foot reach opposite arm forward, compression with knees bent, passing pose with lifted knee, opposite-leg reach.\nThird row frames8,9,10,11: RUN RIGHT continuation opposite compression and passing completing six-pose cycle(8,9); then JUMP rising knees lifted arms balanced(10); then FALL descending legs stretched and arms up(11).\nFourth row frames12,13,14,15: MELEE wind-up rightward with raised EMPTY hands(12), then forward punch/slash follow-through rightward with EMPTY right hand extended(13); VICTORY first with both arms raised(14), then smiling one-fist pump overhead with other arm bent(15).\nCrisp coherent sprite poses suitable to play in sequence, not story panels. No weapons, effects, props, furniture or extra people. Return just the transparent animation sheet.\nCHARACTER IDENTITY: JOHN: same large wavy dark quiff, friendly clean-shaven face, red upper/white lower short sleeve T-shirt, black baggy trousers, black sneakers with pale laces.",
+      "frame_rects": [
+        [
+          123,
+          6,
+          148,
+          319
+        ],
+        [
+          402,
+          7,
+          147,
+          318
+        ],
+        [
+          707,
+          7,
+          147,
+          318
+        ],
+        [
+          985,
+          7,
+          148,
+          318
+        ],
+        [
+          70,
+          323,
+          229,
+          298
+        ],
+        [
+          399,
+          329,
+          183,
+          295
+        ],
+        [
+          673,
+          319,
+          210,
+          303
+        ],
+        [
+          946,
+          323,
+          243,
+          299
+        ],
+        [
+          62,
+          624,
+          243,
+          301
+        ],
+        [
+          403,
+          630,
+          182,
+          295
+        ],
+        [
+          674,
+          615,
+          225,
+          270
+        ],
+        [
+          937,
+          630,
+          291,
+          286
+        ],
+        [
+          54,
+          928,
+          242,
+          304
+        ],
+        [
+          337,
+          930,
+          281,
+          301
+        ],
+        [
+          677,
+          916,
+          211,
+          317
+        ],
+        [
+          993,
+          915,
+          188,
+          316
+        ]
+      ],
+      "frame_pivots": [
+        [
+          74,
+          317.0
+        ],
+        [
+          73,
+          316.0
+        ],
+        [
+          73,
+          316.0
+        ],
+        [
+          74,
+          316.0
+        ],
+        [
+          127,
+          297.0
+        ],
+        [
+          76,
+          291.0
+        ],
+        [
+          107,
+          301.0
+        ],
+        [
+          113,
+          297.0
+        ],
+        [
+          135,
+          299
+        ],
+        [
+          72,
+          293
+        ],
+        [
+          106,
+          308
+        ],
+        [
+          122,
+          293
+        ],
+        [
+          143,
+          301.5
+        ],
+        [
+          138,
+          299.5
+        ],
+        [
+          103,
+          313.5
+        ],
+        [
+          66,
+          314.5
+        ]
+      ],
+      "body_height": 1.0015948963317385,
+      "image_size": [
+        1254,
+        1254
+      ],
+      "row_baselines": [
+        323.0,
+        620.0,
+        923,
+        1229.5
+      ],
+      "frame_grips": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          226,
+          116
+        ],
+        [
+          270,
+          105
+        ],
+        null,
+        null
+      ]
+    },
+    "julio": {
+      "source": "animations/julio.png",
+      "reference": "julio.png",
+      "columns": 4,
+      "rows": 4,
+      "actions": {
+        "idle": {
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        "run": {
+          "frames": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        "jump": {
+          "frames": [
+            10
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "fall": {
+          "frames": [
+            11
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "attack": {
+          "frames": [
+            12,
+            13
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "victory": {
+          "frames": [
+            14,
+            15
+          ],
+          "fps": 5,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve. Asset type: real multiframe 2D game character animation sprite atlas. Edit the supplied finished game sprite into an EXACTLY FOUR COLUMN by FOUR ROW animation sheet, 16 frames in reading order. Preserve the reference character's recognizable face, hairstyle, clothes, colors, shoes, stylized cartoon illustration rendering and outlined linework. Keep every frame the SAME character, full body, THREE-QUARTER RIGHT facing and moving to the RIGHT, hands empty. Pose limbs independently: do NOT make sixteen copies of the same pose or rotate/translate the unchanged image.\nLAYOUT: square canvas, 1024x1024 or1536x1536; exactly4x4 equal square cells, no padding between cells beyond transparent sprite margins. Each character occupies about75-82% of cell height, horizontally centered x50%; soles bottom at y91% of cell in grounded poses. Keep head scale, proportions, camera angle and baseline identical. Leave clear transparent margins, no limb or hair crosses cell borders. Transparent alpha BACKGROUND: no color backdrop, shadows, halo/aura, floor, grid lines, labels, text or numbers.\nFRAME CONTENT by reading order:\nFirst row frames0,1,2,3: four relaxed IDLE keyframes breathing subtly, one blink, shoulders inhale/exhale, same standing baseline.\nSecond row frames4,5,6,7: RUN RIGHT first four keyframes with clearly alternating left/right arm and leg motion: front-foot reach opposite arm forward, compression with knees bent, passing pose with lifted knee, opposite-leg reach.\nThird row frames8,9,10,11: RUN RIGHT continuation opposite compression and passing completing six-pose cycle(8,9); then JUMP rising knees lifted arms balanced(10); then FALL descending legs stretched and arms up(11).\nFourth row frames12,13,14,15: MELEE wind-up rightward with raised EMPTY hands(12), then forward punch/slash follow-through rightward with EMPTY right hand extended(13); VICTORY first with both arms raised(14), then smiling one-fist pump overhead with other arm bent(15).\nCrisp coherent sprite poses suitable to play in sequence, not story panels. No weapons, effects, props, furniture or extra people. Return just the transparent animation sheet.\nCHARACTER IDENTITY: JULIO: same voluminous curly dark hair, cream T-shirt with tiny blue chest motif, black trousers with thin red outer leg stripe, cream-white sneakers.",
+      "frame_rects": [
+        [
+          112,
+          4,
+          136,
+          315
+        ],
+        [
+          417,
+          4,
+          135,
+          315
+        ],
+        [
+          711,
+          4,
+          139,
+          315
+        ],
+        [
+          1009,
+          5,
+          139,
+          314
+        ],
+        [
+          71,
+          316,
+          204,
+          296
+        ],
+        [
+          390,
+          329,
+          183,
+          282
+        ],
+        [
+          679,
+          321,
+          196,
+          289
+        ],
+        [
+          971,
+          319,
+          237,
+          291
+        ],
+        [
+          62,
+          613,
+          225,
+          290
+        ],
+        [
+          365,
+          614,
+          231,
+          291
+        ],
+        [
+          668,
+          604,
+          227,
+          280
+        ],
+        [
+          974,
+          607,
+          252,
+          294
+        ],
+        [
+          57,
+          905,
+          238,
+          318
+        ],
+        [
+          349,
+          909,
+          279,
+          311
+        ],
+        [
+          688,
+          902,
+          226,
+          326
+        ],
+        [
+          1006,
+          899,
+          216,
+          329
+        ]
+      ],
+      "frame_pivots": [
+        [
+          68,
+          313.0
+        ],
+        [
+          67,
+          313.0
+        ],
+        [
+          69,
+          313.0
+        ],
+        [
+          69,
+          312.0
+        ],
+        [
+          109,
+          292.5
+        ],
+        [
+          94,
+          279.5
+        ],
+        [
+          101,
+          287.5
+        ],
+        [
+          107,
+          289.5
+        ],
+        [
+          118,
+          290
+        ],
+        [
+          119,
+          289
+        ],
+        [
+          112,
+          299
+        ],
+        [
+          104,
+          296
+        ],
+        [
+          123,
+          318.5
+        ],
+        [
+          135,
+          314.5
+        ],
+        [
+          92,
+          321.5
+        ],
+        [
+          72,
+          324.5
+        ]
+      ],
+      "body_height": 0.9920255183413078,
+      "image_size": [
+        1254,
+        1254
+      ],
+      "row_baselines": [
+        317.0,
+        608.5,
+        903,
+        1223.5
+      ],
+      "frame_grips": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          185,
+          134
+        ],
+        [
+          268,
+          108
+        ],
+        null,
+        null
+      ]
+    },
+    "luiz": {
+      "source": "animations/luiz.png",
+      "reference": "luiz.png",
+      "columns": 4,
+      "rows": 4,
+      "actions": {
+        "idle": {
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        "run": {
+          "frames": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        "jump": {
+          "frames": [
+            10
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "fall": {
+          "frames": [
+            11
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "attack": {
+          "frames": [
+            12,
+            13
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "victory": {
+          "frames": [
+            14,
+            15
+          ],
+          "fps": 5,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve. Asset type: real multiframe 2D game character animation sprite atlas. Edit the supplied finished game sprite into an EXACTLY FOUR COLUMN by FOUR ROW animation sheet, 16 frames in reading order. Preserve the reference character's recognizable face, hairstyle, clothes, colors, shoes, stylized cartoon illustration rendering and outlined linework. Keep every frame the SAME character, full body, THREE-QUARTER RIGHT facing and moving to the RIGHT, hands empty. Pose limbs independently: do NOT make sixteen copies of the same pose or rotate/translate the unchanged image.\nLAYOUT: square canvas, 1024x1024 or1536x1536; exactly4x4 equal square cells, no padding between cells beyond transparent sprite margins. Each character occupies about75-82% of cell height, horizontally centered x50%; soles bottom at y91% of cell in grounded poses. Keep head scale, proportions, camera angle and baseline identical. Leave clear transparent margins, no limb or hair crosses cell borders. Transparent alpha BACKGROUND: no color backdrop, shadows, halo/aura, floor, grid lines, labels, text or numbers.\nFRAME CONTENT by reading order:\nFirst row frames0,1,2,3: four relaxed IDLE keyframes breathing subtly, one blink, shoulders inhale/exhale, same standing baseline.\nSecond row frames4,5,6,7: RUN RIGHT first four keyframes with clearly alternating left/right arm and leg motion: front-foot reach opposite arm forward, compression with knees bent, passing pose with lifted knee, opposite-leg reach.\nThird row frames8,9,10,11: RUN RIGHT continuation opposite compression and passing completing six-pose cycle(8,9); then JUMP rising knees lifted arms balanced(10); then FALL descending legs stretched and arms up(11).\nFourth row frames12,13,14,15: MELEE wind-up rightward with raised EMPTY hands(12), then forward punch/slash follow-through rightward with EMPTY right hand extended(13); VICTORY first with both arms raised(14), then smiling one-fist pump overhead with other arm bent(15).\nCrisp coherent sprite poses suitable to play in sequence, not story panels. No weapons, effects, props, furniture or extra people. Return just the transparent animation sheet.\nCHARACTER IDENTITY: LUIZ: same short dark hair with loose front curls and low-cut sides, moustache, cream T-shirt, black SHORTS exposing shins, black trainers with blue accents and pale soles.",
+      "frame_rects": [
+        [
+          103,
+          7,
+          152,
+          321
+        ],
+        [
+          416,
+          6,
+          148,
+          322
+        ],
+        [
+          715,
+          7,
+          149,
+          320
+        ],
+        [
+          1026,
+          6,
+          149,
+          321
+        ],
+        [
+          43,
+          328,
+          239,
+          297
+        ],
+        [
+          376,
+          340,
+          210,
+          285
+        ],
+        [
+          674,
+          325,
+          227,
+          300
+        ],
+        [
+          980,
+          328,
+          232,
+          297
+        ],
+        [
+          43,
+          630,
+          226,
+          290
+        ],
+        [
+          357,
+          628,
+          235,
+          293
+        ],
+        [
+          674,
+          613,
+          248,
+          271
+        ],
+        [
+          978,
+          638,
+          256,
+          282
+        ],
+        [
+          48,
+          931,
+          228,
+          304
+        ],
+        [
+          350,
+          925,
+          260,
+          310
+        ],
+        [
+          684,
+          916,
+          223,
+          320
+        ],
+        [
+          1019,
+          928,
+          187,
+          303
+        ]
+      ],
+      "frame_pivots": [
+        [
+          76,
+          318.5
+        ],
+        [
+          74,
+          319.5
+        ],
+        [
+          74,
+          318.5
+        ],
+        [
+          74,
+          319.5
+        ],
+        [
+          136,
+          295.0
+        ],
+        [
+          114,
+          283.0
+        ],
+        [
+          115,
+          298.0
+        ],
+        [
+          120,
+          295.0
+        ],
+        [
+          136,
+          289
+        ],
+        [
+          133,
+          291
+        ],
+        [
+          115,
+          306
+        ],
+        [
+          122,
+          281
+        ],
+        [
+          131,
+          302.0
+        ],
+        [
+          140,
+          308.0
+        ],
+        [
+          105,
+          317.0
+        ],
+        [
+          81,
+          305.0
+        ]
+      ],
+      "body_height": 1.0111642743221692,
+      "image_size": [
+        1254,
+        1254
+      ],
+      "row_baselines": [
+        325.5,
+        623.0,
+        919,
+        1233.0
+      ],
+      "frame_grips": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          197,
+          122
+        ],
+        [
+          250,
+          109
+        ],
+        null,
+        null
+      ]
+    },
+    "vini": {
+      "source": "animations/vini.png",
+      "reference": "vini.png",
+      "columns": 4,
+      "rows": 4,
+      "actions": {
+        "idle": {
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        "run": {
+          "frames": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        "jump": {
+          "frames": [
+            10
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "fall": {
+          "frames": [
+            11
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "attack": {
+          "frames": [
+            12,
+            13
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "victory": {
+          "frames": [
+            14,
+            15
+          ],
+          "fps": 5,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve. Asset type: real multiframe 2D game character animation sprite atlas. Edit the supplied finished game sprite into an EXACTLY FOUR COLUMN by FOUR ROW animation sheet, 16 frames in reading order. Preserve the reference character's recognizable face, hairstyle, clothes, colors, shoes, stylized cartoon illustration rendering and outlined linework. Keep every frame the SAME character, full body, THREE-QUARTER RIGHT facing and moving to the RIGHT, hands empty. Pose limbs independently: do NOT make sixteen copies of the same pose or rotate/translate the unchanged image.\nLAYOUT: square canvas, 1024x1024 or1536x1536; exactly4x4 equal square cells, no padding between cells beyond transparent sprite margins. Each character occupies about75-82% of cell height, horizontally centered x50%; soles bottom at y91% of cell in grounded poses. Keep head scale, proportions, camera angle and baseline identical. Leave clear transparent margins, no limb or hair crosses cell borders. Transparent alpha BACKGROUND: no color backdrop, shadows, halo/aura, floor, grid lines, labels, text or numbers.\nFRAME CONTENT by reading order:\nFirst row frames0,1,2,3: four relaxed IDLE keyframes breathing subtly, one blink, shoulders inhale/exhale, same standing baseline.\nSecond row frames4,5,6,7: RUN RIGHT first four keyframes with clearly alternating left/right arm and leg motion: front-foot reach opposite arm forward, compression with knees bent, passing pose with lifted knee, opposite-leg reach.\nThird row frames8,9,10,11: RUN RIGHT continuation opposite compression and passing completing six-pose cycle(8,9); then JUMP rising knees lifted arms balanced(10); then FALL descending legs stretched and arms up(11).\nFourth row frames12,13,14,15: MELEE wind-up rightward with raised EMPTY hands(12), then forward punch/slash follow-through rightward with EMPTY right hand extended(13); VICTORY first with both arms raised(14), then smiling one-fist pump overhead with other arm bent(15).\nCrisp coherent sprite poses suitable to play in sequence, not story panels. No weapons, effects, props, furniture or extra people. Return just the transparent animation sheet.\nCHARACTER IDENTITY: VINI: same long dark hair in a low ponytail, ROUND BLACK GLASSES, thin moustache and slight beard, red/white shirt over pushed-up GREY LONG SLEEVES, black trousers, lime-green trainers.",
+      "frame_rects": [
+        [
+          122,
+          3,
+          148,
+          318
+        ],
+        [
+          414,
+          3,
+          149,
+          318
+        ],
+        [
+          713,
+          4,
+          145,
+          317
+        ],
+        [
+          1012,
+          2,
+          148,
+          319
+        ],
+        [
+          73,
+          319,
+          225,
+          304
+        ],
+        [
+          418,
+          325,
+          171,
+          299
+        ],
+        [
+          670,
+          317,
+          231,
+          302
+        ],
+        [
+          973,
+          317,
+          242,
+          309
+        ],
+        [
+          53,
+          623,
+          237,
+          297
+        ],
+        [
+          372,
+          626,
+          218,
+          291
+        ],
+        [
+          649,
+          618,
+          257,
+          281
+        ],
+        [
+          950,
+          622,
+          287,
+          296
+        ],
+        [
+          45,
+          919,
+          262,
+          322
+        ],
+        [
+          356,
+          916,
+          284,
+          323
+        ],
+        [
+          683,
+          910,
+          224,
+          331
+        ],
+        [
+          1002,
+          918,
+          190,
+          323
+        ]
+      ],
+      "frame_pivots": [
+        [
+          74,
+          316.0
+        ],
+        [
+          74,
+          316.0
+        ],
+        [
+          72,
+          315.0
+        ],
+        [
+          74,
+          317.0
+        ],
+        [
+          123,
+          302.5
+        ],
+        [
+          70,
+          296.5
+        ],
+        [
+          115,
+          304.5
+        ],
+        [
+          113,
+          304.5
+        ],
+        [
+          143,
+          295
+        ],
+        [
+          116,
+          292
+        ],
+        [
+          136,
+          300
+        ],
+        [
+          136,
+          296
+        ],
+        [
+          151,
+          320.0
+        ],
+        [
+          132,
+          323.0
+        ],
+        [
+          102,
+          329.0
+        ],
+        [
+          84,
+          321.0
+        ]
+      ],
+      "body_height": 1.0015948963317385,
+      "image_size": [
+        1254,
+        1254
+      ],
+      "row_baselines": [
+        319.0,
+        621.5,
+        918,
+        1239.0
+      ],
+      "frame_grips": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          242,
+          118
+        ],
+        [
+          273,
+          115
+        ],
+        null,
+        null
+      ]
+    },
+    "yan": {
+      "source": "animations/yan.png",
+      "reference": "yan.png",
+      "columns": 4,
+      "rows": 4,
+      "actions": {
+        "idle": {
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        "run": {
+          "frames": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        "jump": {
+          "frames": [
+            10
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "fall": {
+          "frames": [
+            11
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "attack": {
+          "frames": [
+            12,
+            13
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "victory": {
+          "frames": [
+            14,
+            15
+          ],
+          "fps": 5,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve. Asset type: real multiframe 2D game character animation sprite atlas. Edit the supplied finished game sprite into an EXACTLY FOUR COLUMN by FOUR ROW animation sheet, 16 frames in reading order. Preserve the reference character's recognizable face, hairstyle, clothes, colors, shoes, stylized cartoon illustration rendering and outlined linework. Keep every frame the SAME character, full body, THREE-QUARTER RIGHT facing and moving to the RIGHT, hands empty. Pose limbs independently: do NOT make sixteen copies of the same pose or rotate/translate the unchanged image.\nLAYOUT: square canvas, 1024x1024 or1536x1536; exactly4x4 equal square cells, no padding between cells beyond transparent sprite margins. Each character occupies about75-82% of cell height, horizontally centered x50%; soles bottom at y91% of cell in grounded poses. Keep head scale, proportions, camera angle and baseline identical. Leave clear transparent margins, no limb or hair crosses cell borders. Transparent alpha BACKGROUND: no color backdrop, shadows, halo/aura, floor, grid lines, labels, text or numbers.\nFRAME CONTENT by reading order:\nFirst row frames0,1,2,3: four relaxed IDLE keyframes breathing subtly, one blink, shoulders inhale/exhale, same standing baseline.\nSecond row frames4,5,6,7: RUN RIGHT first four keyframes with clearly alternating left/right arm and leg motion: front-foot reach opposite arm forward, compression with knees bent, passing pose with lifted knee, opposite-leg reach.\nThird row frames8,9,10,11: RUN RIGHT continuation opposite compression and passing completing six-pose cycle(8,9); then JUMP rising knees lifted arms balanced(10); then FALL descending legs stretched and arms up(11).\nFourth row frames12,13,14,15: MELEE wind-up rightward with raised EMPTY hands(12), then forward punch/slash follow-through rightward with EMPTY right hand extended(13); VICTORY first with both arms raised(14), then smiling one-fist pump overhead with other arm bent(15).\nCrisp coherent sprite poses suitable to play in sequence, not story panels. No weapons, effects, props, furniture or extra people. Return just the transparent animation sheet.\nCHARACTER IDENTITY: YAN: same loose black fringe and dark hair, black HOODIE with red rectangular chest patch, black trousers with narrow red side stripe, black/white/red high-top sneakers.",
+      "frame_rects": [
+        [
+          95,
+          7,
+          153,
+          313
+        ],
+        [
+          408,
+          6,
+          142,
+          314
+        ],
+        [
+          704,
+          8,
+          148,
+          311
+        ],
+        [
+          1006,
+          7,
+          152,
+          312
+        ],
+        [
+          65,
+          322,
+          207,
+          293
+        ],
+        [
+          404,
+          325,
+          175,
+          295
+        ],
+        [
+          686,
+          322,
+          191,
+          303
+        ],
+        [
+          975,
+          325,
+          242,
+          290
+        ],
+        [
+          58,
+          623,
+          216,
+          288
+        ],
+        [
+          367,
+          631,
+          218,
+          279
+        ],
+        [
+          690,
+          622,
+          205,
+          274
+        ],
+        [
+          966,
+          624,
+          254,
+          283
+        ],
+        [
+          41,
+          925,
+          234,
+          302
+        ],
+        [
+          342,
+          925,
+          277,
+          303
+        ],
+        [
+          693,
+          918,
+          212,
+          315
+        ],
+        [
+          1011,
+          916,
+          196,
+          317
+        ]
+      ],
+      "frame_pivots": [
+        [
+          76,
+          310.5
+        ],
+        [
+          71,
+          311.5
+        ],
+        [
+          74,
+          309.5
+        ],
+        [
+          76,
+          310.5
+        ],
+        [
+          106,
+          293.5
+        ],
+        [
+          75,
+          290.5
+        ],
+        [
+          92,
+          293.5
+        ],
+        [
+          107,
+          290.5
+        ],
+        [
+          113,
+          286
+        ],
+        [
+          112,
+          278
+        ],
+        [
+          88,
+          287
+        ],
+        [
+          116,
+          285
+        ],
+        [
+          130,
+          303.5
+        ],
+        [
+          137,
+          303.5
+        ],
+        [
+          85,
+          310.5
+        ],
+        [
+          71,
+          312.5
+        ]
+      ],
+      "body_height": 0.9840510366826156,
+      "image_size": [
+        1254,
+        1254
+      ],
+      "row_baselines": [
+        317.5,
+        615.5,
+        909,
+        1228.5
+      ],
+      "frame_grips": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          205,
+          118
+        ],
+        [
+          267,
+          119
+        ],
+        null,
+        null
+      ]
+    }
+  }
+}

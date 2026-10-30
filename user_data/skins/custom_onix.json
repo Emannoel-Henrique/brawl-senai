@@ -1,0 +1,11 @@
+{
+  "key": "custom_onix",
+  "name": "ONIX",
+  "primary": "#617080",
+  "secondary": "#202630",
+  "accent": "#ED698C",
+  "pattern": "circuit",
+  "hat": "horns",
+  "sprite": null,
+  "version": 1
+}

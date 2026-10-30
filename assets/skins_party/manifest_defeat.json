@@ -1,0 +1,1046 @@
+{
+  "version": 1,
+  "tool": "image_gen.imagegen (built-in)",
+  "created": "2026-10-27",
+  "notes": "Twelve articulated poses per person, four per placement; source photos and existing atlases remain untouched. Largest alpha component selected at runtime. One scale per character, feet on podium.",
+  "assets": {
+    "emannoel": {
+      "source": "defeats/emannoel.png",
+      "reference": "emannoel.png",
+      "columns": 4,
+      "rows": 3,
+      "actions": {
+        "defeat_2": {
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        "defeat_3": {
+          "frames": [
+            4,
+            5,
+            6,
+            5,
+            7
+          ],
+          "fps": 3.5,
+          "loop": true
+        },
+        "defeat_4": {
+          "frames": [
+            8,
+            9,
+            10,
+            9,
+            11
+          ],
+          "fps": 2.8,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve.\nAsset type: transparent animated sprite atlas for an existing 2D game.\nUse the supplied character sprite as the identity/outfit reference. Make the SAME recognisable character in the game's chibi cartoon illustration style with clean outlined linework, slightly oversized head and fully articulated limbs. Preserve hair, face, skin tone, clothing colors and shoes. Hands empty.\nCreate exactly FOUR COLUMNS by THREE ROWS, 12 full-body animation frames, reading order. Each row is a DIFFERENT LOSS REACTION. The four frames in each row are keyframes of one coherent looping animation; change actual arms, head and legs independently, not copies shifted or rotated.\nROW ONE (frames0..3): SECOND PLACE / disappointed sporting applause. Standing planted feet. Slightly slumped shoulders and rueful frown. Arms in front of chest. Frame0 palms separated; frame1 palms coming together; frame2 palms touching in a small slow clap; frame3 hands apart again with head briefly lowered. NO smiles, cheering, raised victory fists, trophies or medals.\nROW TWO (frames4..7): THIRD PLACE / frustrated facepalm. Standing with knees slightly bent and slumped torso. Frame4 empty right hand rising toward forehead, frame5 palm covering forehead/eyes with head lowered, frame6 facepalm with other arm hanging and a frustrated head shake, frame7 hand lowering to chest with tired frown. No weapons.\nROW THREE (frames8..11): FOURTH PLACE / comically exhausted collapse. ALL four frames seated on ground, legs forward and bent, head hanging, shoulders sunk. Frame8 seated hands resting near knees, frame9 leaning forward elbows on thighs, frame10 both hands briefly covering face in despair, frame11 leaning back with arms hanging and a big weary sigh. Clearly seated rather than standing. No text bubbles, chairs or props.\nLAYOUT REQUIREMENTS: landscape canvas, four equal square cells across and three equal square cells down (4:3 total aspect). Keep identical head size and person scale in all12 frames. Ground contact at91% cell height; do not enlarge the seated character to fill its cell. Standing person about76% of cell height, seated person about50% cell height, same anatomical scale. Character centered horizontally in every cell; all face three-quarter RIGHT. 10% transparent gutters inside each cell, every limb fully inside its cell, no clipping and no overlapping neighbouring frames.\nBACKGROUND: true transparent alpha, no shadows, glow, aura, floor, border, grid, labels, text, numerals, watermarks, other people or effects. Crisp game-ready separate poses.\n\nCHARACTER IDENTITY: EMANNOEL: very short dark hair, subtle thin moustache, red upper/white lower T-shirt, black elbow pads, baggy black trousers and blue/turquoise trainers.",
+      "image_size": [
+        1448,
+        1086
+      ],
+      "body_height": 1.031767955801105,
+      "frame_rects": [
+        [
+          96,
+          10,
+          216,
+          387
+        ],
+        [
+          459,
+          12,
+          170,
+          385
+        ],
+        [
+          821,
+          12,
+          167,
+          385
+        ],
+        [
+          1179,
+          20,
+          201,
+          377
+        ],
+        [
+          86,
+          402,
+          202,
+          378
+        ],
+        [
+          458,
+          407,
+          189,
+          372
+        ],
+        [
+          820,
+          414,
+          179,
+          365
+        ],
+        [
+          1181,
+          404,
+          175,
+          375
+        ],
+        [
+          62,
+          791,
+          274,
+          280
+        ],
+        [
+          430,
+          797,
+          275,
+          275
+        ],
+        [
+          793,
+          809,
+          270,
+          263
+        ],
+        [
+          1126,
+          792,
+          311,
+          281
+        ]
+      ],
+      "frame_pivots": [
+        [
+          52.0,
+          385
+        ],
+        [
+          51.0,
+          383
+        ],
+        [
+          51.0,
+          383
+        ],
+        [
+          54,
+          375
+        ],
+        [
+          53.0,
+          376
+        ],
+        [
+          50,
+          370
+        ],
+        [
+          49.0,
+          363
+        ],
+        [
+          52.0,
+          373
+        ],
+        [
+          137.0,
+          278
+        ],
+        [
+          137.5,
+          273
+        ],
+        [
+          135.0,
+          261
+        ],
+        [
+          155.5,
+          279
+        ]
+      ],
+      "isolate_components": true
+    },
+    "john": {
+      "source": "defeats/john.png",
+      "reference": "john.png",
+      "columns": 4,
+      "rows": 3,
+      "actions": {
+        "defeat_2": {
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        "defeat_3": {
+          "frames": [
+            4,
+            5,
+            6,
+            5,
+            7
+          ],
+          "fps": 3.5,
+          "loop": true
+        },
+        "defeat_4": {
+          "frames": [
+            8,
+            9,
+            10,
+            9,
+            11
+          ],
+          "fps": 2.8,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve.\nAsset type: transparent animated sprite atlas for an existing 2D game.\nUse the supplied character sprite as the identity/outfit reference. Make the SAME recognisable character in the game's chibi cartoon illustration style with clean outlined linework, slightly oversized head and fully articulated limbs. Preserve hair, face, skin tone, clothing colors and shoes. Hands empty.\nCreate exactly FOUR COLUMNS by THREE ROWS, 12 full-body animation frames, reading order. Each row is a DIFFERENT LOSS REACTION. The four frames in each row are keyframes of one coherent looping animation; change actual arms, head and legs independently, not copies shifted or rotated.\nROW ONE (frames0..3): SECOND PLACE / disappointed sporting applause. Standing planted feet. Slightly slumped shoulders and rueful frown. Arms in front of chest. Frame0 palms separated; frame1 palms coming together; frame2 palms touching in a small slow clap; frame3 hands apart again with head briefly lowered. NO smiles, cheering, raised victory fists, trophies or medals.\nROW TWO (frames4..7): THIRD PLACE / frustrated facepalm. Standing with knees slightly bent and slumped torso. Frame4 empty right hand rising toward forehead, frame5 palm covering forehead/eyes with head lowered, frame6 facepalm with other arm hanging and a frustrated head shake, frame7 hand lowering to chest with tired frown. No weapons.\nROW THREE (frames8..11): FOURTH PLACE / comically exhausted collapse. ALL four frames seated on ground, legs forward and bent, head hanging, shoulders sunk. Frame8 seated hands resting near knees, frame9 leaning forward elbows on thighs, frame10 both hands briefly covering face in despair, frame11 leaning back with arms hanging and a big weary sigh. Clearly seated rather than standing. No text bubbles, chairs or props.\nLAYOUT REQUIREMENTS: landscape canvas, four equal square cells across and three equal square cells down (4:3 total aspect). Keep identical head size and person scale in all12 frames. Ground contact at91% cell height; do not enlarge the seated character to fill its cell. Standing person about76% of cell height, seated person about50% cell height, same anatomical scale. Character centered horizontally in every cell; all face three-quarter RIGHT. 10% transparent gutters inside each cell, every limb fully inside its cell, no clipping and no overlapping neighbouring frames.\nBACKGROUND: true transparent alpha, no shadows, glow, aura, floor, border, grid, labels, text, numerals, watermarks, other people or effects. Crisp game-ready separate poses.\n\nCHARACTER IDENTITY: JOHN: voluminous wavy dark hair, red upper/white lower T-shirt, black baggy trousers and black trainers.",
+      "image_size": [
+        1448,
+        1086
+      ],
+      "body_height": 0.9986187845303868,
+      "frame_rects": [
+        [
+          124,
+          7,
+          195,
+          366
+        ],
+        [
+          475,
+          8,
+          166,
+          366
+        ],
+        [
+          824,
+          9,
+          166,
+          365
+        ],
+        [
+          1186,
+          7,
+          186,
+          367
+        ],
+        [
+          113,
+          380,
+          194,
+          368
+        ],
+        [
+          463,
+          387,
+          206,
+          360
+        ],
+        [
+          807,
+          388,
+          207,
+          359
+        ],
+        [
+          1184,
+          383,
+          186,
+          365
+        ],
+        [
+          87,
+          757,
+          266,
+          307
+        ],
+        [
+          453,
+          770,
+          259,
+          293
+        ],
+        [
+          802,
+          774,
+          260,
+          290
+        ],
+        [
+          1144,
+          753,
+          285,
+          315
+        ]
+      ],
+      "frame_pivots": [
+        [
+          51,
+          364
+        ],
+        [
+          54,
+          364
+        ],
+        [
+          54,
+          363
+        ],
+        [
+          49,
+          365
+        ],
+        [
+          49,
+          366
+        ],
+        [
+          50.0,
+          358
+        ],
+        [
+          50.0,
+          357
+        ],
+        [
+          53,
+          363
+        ],
+        [
+          133.0,
+          305
+        ],
+        [
+          129.5,
+          291
+        ],
+        [
+          130.0,
+          288
+        ],
+        [
+          142.5,
+          313
+        ]
+      ],
+      "isolate_components": true
+    },
+    "julio": {
+      "source": "defeats/julio.png",
+      "reference": "julio.png",
+      "columns": 4,
+      "rows": 3,
+      "actions": {
+        "defeat_2": {
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        "defeat_3": {
+          "frames": [
+            4,
+            5,
+            6,
+            5,
+            7
+          ],
+          "fps": 3.5,
+          "loop": true
+        },
+        "defeat_4": {
+          "frames": [
+            8,
+            9,
+            10,
+            9,
+            11
+          ],
+          "fps": 2.8,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve.\nAsset type: transparent animated sprite atlas for an existing 2D game.\nUse the supplied character sprite as the identity/outfit reference. Make the SAME recognisable character in the game's chibi cartoon illustration style with clean outlined linework, slightly oversized head and fully articulated limbs. Preserve hair, face, skin tone, clothing colors and shoes. Hands empty.\nCreate exactly FOUR COLUMNS by THREE ROWS, 12 full-body animation frames, reading order. Each row is a DIFFERENT LOSS REACTION. The four frames in each row are keyframes of one coherent looping animation; change actual arms, head and legs independently, not copies shifted or rotated.\nROW ONE (frames0..3): SECOND PLACE / disappointed sporting applause. Standing planted feet. Slightly slumped shoulders and rueful frown. Arms in front of chest. Frame0 palms separated; frame1 palms coming together; frame2 palms touching in a small slow clap; frame3 hands apart again with head briefly lowered. NO smiles, cheering, raised victory fists, trophies or medals.\nROW TWO (frames4..7): THIRD PLACE / frustrated facepalm. Standing with knees slightly bent and slumped torso. Frame4 empty right hand rising toward forehead, frame5 palm covering forehead/eyes with head lowered, frame6 facepalm with other arm hanging and a frustrated head shake, frame7 hand lowering to chest with tired frown. No weapons.\nROW THREE (frames8..11): FOURTH PLACE / comically exhausted collapse. ALL four frames seated on ground, legs forward and bent, head hanging, shoulders sunk. Frame8 seated hands resting near knees, frame9 leaning forward elbows on thighs, frame10 both hands briefly covering face in despair, frame11 leaning back with arms hanging and a big weary sigh. Clearly seated rather than standing. No text bubbles, chairs or props.\nLAYOUT REQUIREMENTS: landscape canvas, four equal square cells across and three equal square cells down (4:3 total aspect). Keep identical head size and person scale in all12 frames. Ground contact at91% cell height; do not enlarge the seated character to fill its cell. Standing person about76% of cell height, seated person about50% cell height, same anatomical scale. Character centered horizontally in every cell; all face three-quarter RIGHT. 10% transparent gutters inside each cell, every limb fully inside its cell, no clipping and no overlapping neighbouring frames.\nBACKGROUND: true transparent alpha, no shadows, glow, aura, floor, border, grid, labels, text, numerals, watermarks, other people or effects. Crisp game-ready separate poses.\n\nCHARACTER IDENTITY: JULIO: curly dark hair, cream T-shirt with small blue chest drawing, black trousers with red side stripe and white trainers.",
+      "image_size": [
+        1448,
+        1086
+      ],
+      "body_height": 1.0552486187845305,
+      "frame_rects": [
+        [
+          103,
+          7,
+          217,
+          400
+        ],
+        [
+          459,
+          7,
+          197,
+          400
+        ],
+        [
+          818,
+          7,
+          199,
+          400
+        ],
+        [
+          1185,
+          10,
+          200,
+          397
+        ],
+        [
+          100,
+          417,
+          208,
+          375
+        ],
+        [
+          458,
+          426,
+          222,
+          366
+        ],
+        [
+          818,
+          421,
+          225,
+          371
+        ],
+        [
+          1184,
+          420,
+          205,
+          372
+        ],
+        [
+          82,
+          801,
+          242,
+          279
+        ],
+        [
+          447,
+          804,
+          248,
+          276
+        ],
+        [
+          800,
+          809,
+          254,
+          270
+        ],
+        [
+          1124,
+          797,
+          296,
+          282
+        ]
+      ],
+      "frame_pivots": [
+        [
+          70,
+          398
+        ],
+        [
+          71,
+          398
+        ],
+        [
+          71,
+          398
+        ],
+        [
+          58,
+          395
+        ],
+        [
+          64,
+          373
+        ],
+        [
+          60,
+          364
+        ],
+        [
+          60,
+          369
+        ],
+        [
+          60.0,
+          370
+        ],
+        [
+          121.0,
+          277
+        ],
+        [
+          124.0,
+          274
+        ],
+        [
+          127.0,
+          268
+        ],
+        [
+          148.0,
+          280
+        ]
+      ],
+      "isolate_components": true
+    },
+    "luiz": {
+      "source": "defeats/luiz.png",
+      "reference": "luiz.png",
+      "columns": 4,
+      "rows": 3,
+      "actions": {
+        "defeat_2": {
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        "defeat_3": {
+          "frames": [
+            4,
+            5,
+            6,
+            5,
+            7
+          ],
+          "fps": 3.5,
+          "loop": true
+        },
+        "defeat_4": {
+          "frames": [
+            8,
+            9,
+            10,
+            9,
+            11
+          ],
+          "fps": 2.8,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve.\nAsset type: transparent animated sprite atlas for an existing 2D game.\nUse the supplied character sprite as the identity/outfit reference. Make the SAME recognisable character in the game's chibi cartoon illustration style with clean outlined linework, slightly oversized head and fully articulated limbs. Preserve hair, face, skin tone, clothing colors and shoes. Hands empty.\nCreate exactly FOUR COLUMNS by THREE ROWS, 12 full-body animation frames, reading order. Each row is a DIFFERENT LOSS REACTION. The four frames in each row are keyframes of one coherent looping animation; change actual arms, head and legs independently, not copies shifted or rotated.\nROW ONE (frames0..3): SECOND PLACE / disappointed sporting applause. Standing planted feet. Slightly slumped shoulders and rueful frown. Arms in front of chest. Frame0 palms separated; frame1 palms coming together; frame2 palms touching in a small slow clap; frame3 hands apart again with head briefly lowered. NO smiles, cheering, raised victory fists, trophies or medals.\nROW TWO (frames4..7): THIRD PLACE / frustrated facepalm. Standing with knees slightly bent and slumped torso. Frame4 empty right hand rising toward forehead, frame5 palm covering forehead/eyes with head lowered, frame6 facepalm with other arm hanging and a frustrated head shake, frame7 hand lowering to chest with tired frown. No weapons.\nROW THREE (frames8..11): FOURTH PLACE / comically exhausted collapse. ALL four frames seated on ground, legs forward and bent, head hanging, shoulders sunk. Frame8 seated hands resting near knees, frame9 leaning forward elbows on thighs, frame10 both hands briefly covering face in despair, frame11 leaning back with arms hanging and a big weary sigh. Clearly seated rather than standing. No text bubbles, chairs or props.\nLAYOUT REQUIREMENTS: landscape canvas, four equal square cells across and three equal square cells down (4:3 total aspect). Keep identical head size and person scale in all12 frames. Ground contact at91% cell height; do not enlarge the seated character to fill its cell. Standing person about76% of cell height, seated person about50% cell height, same anatomical scale. Character centered horizontally in every cell; all face three-quarter RIGHT. 10% transparent gutters inside each cell, every limb fully inside its cell, no clipping and no overlapping neighbouring frames.\nBACKGROUND: true transparent alpha, no shadows, glow, aura, floor, border, grid, labels, text, numerals, watermarks, other people or effects. Crisp game-ready separate poses.\n\nCHARACTER IDENTITY: LUIZ: short messy dark hair, small moustache, cream T-shirt, black shorts and black/blue trainers. Preserve shorts and bare lower legs.",
+      "image_size": [
+        1448,
+        1086
+      ],
+      "body_height": 1.0400552486187846,
+      "frame_rects": [
+        [
+          120,
+          10,
+          193,
+          383
+        ],
+        [
+          450,
+          10,
+          180,
+          382
+        ],
+        [
+          809,
+          10,
+          180,
+          382
+        ],
+        [
+          1159,
+          13,
+          195,
+          379
+        ],
+        [
+          101,
+          394,
+          207,
+          384
+        ],
+        [
+          446,
+          399,
+          214,
+          379
+        ],
+        [
+          800,
+          403,
+          209,
+          374
+        ],
+        [
+          1153,
+          398,
+          203,
+          378
+        ],
+        [
+          83,
+          787,
+          258,
+          285
+        ],
+        [
+          443,
+          791,
+          247,
+          281
+        ],
+        [
+          789,
+          794,
+          247,
+          278
+        ],
+        [
+          1122,
+          783,
+          289,
+          290
+        ]
+      ],
+      "frame_pivots": [
+        [
+          87,
+          381
+        ],
+        [
+          97.0,
+          380
+        ],
+        [
+          96.0,
+          380
+        ],
+        [
+          81.0,
+          377
+        ],
+        [
+          81.5,
+          382
+        ],
+        [
+          100.5,
+          377
+        ],
+        [
+          97.5,
+          372
+        ],
+        [
+          96.0,
+          376
+        ],
+        [
+          129.0,
+          283
+        ],
+        [
+          123.5,
+          279
+        ],
+        [
+          123.5,
+          276
+        ],
+        [
+          144.5,
+          288
+        ]
+      ],
+      "isolate_components": true
+    },
+    "vini": {
+      "source": "defeats/vini.png",
+      "reference": "vini.png",
+      "columns": 4,
+      "rows": 3,
+      "actions": {
+        "defeat_2": {
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        "defeat_3": {
+          "frames": [
+            4,
+            5,
+            6,
+            5,
+            7
+          ],
+          "fps": 3.5,
+          "loop": true
+        },
+        "defeat_4": {
+          "frames": [
+            8,
+            9,
+            10,
+            9,
+            11
+          ],
+          "fps": 2.8,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve.\nAsset type: transparent animated sprite atlas for an existing 2D game.\nUse the supplied character sprite as the identity/outfit reference. Make the SAME recognisable character in the game's chibi cartoon illustration style with clean outlined linework, slightly oversized head and fully articulated limbs. Preserve hair, face, skin tone, clothing colors and shoes. Hands empty.\nCreate exactly FOUR COLUMNS by THREE ROWS, 12 full-body animation frames, reading order. Each row is a DIFFERENT LOSS REACTION. The four frames in each row are keyframes of one coherent looping animation; change actual arms, head and legs independently, not copies shifted or rotated.\nROW ONE (frames0..3): SECOND PLACE / disappointed sporting applause. Standing planted feet. Slightly slumped shoulders and rueful frown. Arms in front of chest. Frame0 palms separated; frame1 palms coming together; frame2 palms touching in a small slow clap; frame3 hands apart again with head briefly lowered. NO smiles, cheering, raised victory fists, trophies or medals.\nROW TWO (frames4..7): THIRD PLACE / frustrated facepalm. Standing with knees slightly bent and slumped torso. Frame4 empty right hand rising toward forehead, frame5 palm covering forehead/eyes with head lowered, frame6 facepalm with other arm hanging and a frustrated head shake, frame7 hand lowering to chest with tired frown. No weapons.\nROW THREE (frames8..11): FOURTH PLACE / comically exhausted collapse. ALL four frames seated on ground, legs forward and bent, head hanging, shoulders sunk. Frame8 seated hands resting near knees, frame9 leaning forward elbows on thighs, frame10 both hands briefly covering face in despair, frame11 leaning back with arms hanging and a big weary sigh. Clearly seated rather than standing. No text bubbles, chairs or props.\nLAYOUT REQUIREMENTS: landscape canvas, four equal square cells across and three equal square cells down (4:3 total aspect). Keep identical head size and person scale in all12 frames. Ground contact at91% cell height; do not enlarge the seated character to fill its cell. Standing person about76% of cell height, seated person about50% cell height, same anatomical scale. Character centered horizontally in every cell; all face three-quarter RIGHT. 10% transparent gutters inside each cell, every limb fully inside its cell, no clipping and no overlapping neighbouring frames.\nBACKGROUND: true transparent alpha, no shadows, glow, aura, floor, border, grid, labels, text, numerals, watermarks, other people or effects. Crisp game-ready separate poses.\n\nCHARACTER IDENTITY: VINI: long dark hair tied in a low ponytail, round glasses, subtle moustache/beard, red/white shirt over rolled gray sleeves, black trousers and lime green trainers. Keep glasses in every pose.",
+      "image_size": [
+        1448,
+        1086
+      ],
+      "body_height": 0.9930939226519337,
+      "frame_rects": [
+        [
+          96,
+          8,
+          206,
+          358
+        ],
+        [
+          455,
+          8,
+          190,
+          358
+        ],
+        [
+          810,
+          7,
+          185,
+          359
+        ],
+        [
+          1170,
+          10,
+          208,
+          356
+        ],
+        [
+          92,
+          373,
+          214,
+          374
+        ],
+        [
+          453,
+          379,
+          210,
+          368
+        ],
+        [
+          813,
+          376,
+          211,
+          370
+        ],
+        [
+          1168,
+          376,
+          207,
+          371
+        ],
+        [
+          88,
+          759,
+          261,
+          314
+        ],
+        [
+          451,
+          769,
+          268,
+          293
+        ],
+        [
+          806,
+          762,
+          261,
+          304
+        ],
+        [
+          1128,
+          756,
+          300,
+          319
+        ]
+      ],
+      "frame_pivots": [
+        [
+          60.0,
+          356
+        ],
+        [
+          62.0,
+          356
+        ],
+        [
+          67.0,
+          357
+        ],
+        [
+          58,
+          354
+        ],
+        [
+          42.0,
+          372
+        ],
+        [
+          42.0,
+          366
+        ],
+        [
+          40,
+          368
+        ],
+        [
+          57.0,
+          369
+        ],
+        [
+          130.5,
+          312
+        ],
+        [
+          134.0,
+          291
+        ],
+        [
+          130.5,
+          302
+        ],
+        [
+          150.0,
+          317
+        ]
+      ],
+      "isolate_components": true
+    },
+    "yan": {
+      "source": "defeats/yan.png",
+      "reference": "yan.png",
+      "columns": 4,
+      "rows": 3,
+      "actions": {
+        "defeat_2": {
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        "defeat_3": {
+          "frames": [
+            4,
+            5,
+            6,
+            5,
+            7
+          ],
+          "fps": 3.5,
+          "loop": true
+        },
+        "defeat_4": {
+          "frames": [
+            8,
+            9,
+            10,
+            9,
+            11
+          ],
+          "fps": 2.8,
+          "loop": true
+        }
+      },
+      "prompt": "Use case: identity-preserve.\nAsset type: transparent animated sprite atlas for an existing 2D game.\nUse the supplied character sprite as the identity/outfit reference. Make the SAME recognisable character in the game's chibi cartoon illustration style with clean outlined linework, slightly oversized head and fully articulated limbs. Preserve hair, face, skin tone, clothing colors and shoes. Hands empty.\nCreate exactly FOUR COLUMNS by THREE ROWS, 12 full-body animation frames, reading order. Each row is a DIFFERENT LOSS REACTION. The four frames in each row are keyframes of one coherent looping animation; change actual arms, head and legs independently, not copies shifted or rotated.\nROW ONE (frames0..3): SECOND PLACE / disappointed sporting applause. Standing planted feet. Slightly slumped shoulders and rueful frown. Arms in front of chest. Frame0 palms separated; frame1 palms coming together; frame2 palms touching in a small slow clap; frame3 hands apart again with head briefly lowered. NO smiles, cheering, raised victory fists, trophies or medals.\nROW TWO (frames4..7): THIRD PLACE / frustrated facepalm. Standing with knees slightly bent and slumped torso. Frame4 empty right hand rising toward forehead, frame5 palm covering forehead/eyes with head lowered, frame6 facepalm with other arm hanging and a frustrated head shake, frame7 hand lowering to chest with tired frown. No weapons.\nROW THREE (frames8..11): FOURTH PLACE / comically exhausted collapse. ALL four frames seated on ground, legs forward and bent, head hanging, shoulders sunk. Frame8 seated hands resting near knees, frame9 leaning forward elbows on thighs, frame10 both hands briefly covering face in despair, frame11 leaning back with arms hanging and a big weary sigh. Clearly seated rather than standing. No text bubbles, chairs or props.\nLAYOUT REQUIREMENTS: landscape canvas, four equal square cells across and three equal square cells down (4:3 total aspect). Keep identical head size and person scale in all12 frames. Ground contact at91% cell height; do not enlarge the seated character to fill its cell. Standing person about76% of cell height, seated person about50% cell height, same anatomical scale. Character centered horizontally in every cell; all face three-quarter RIGHT. 10% transparent gutters inside each cell, every limb fully inside its cell, no clipping and no overlapping neighbouring frames.\nBACKGROUND: true transparent alpha, no shadows, glow, aura, floor, border, grid, labels, text, numerals, watermarks, other people or effects. Crisp game-ready separate poses.\n\nCHARACTER IDENTITY: YAN: tousled dark fringe, black hoodie with red rectangular chest mark, black trousers with thin red stripe and black/white/red high-top shoes.",
+      "image_size": [
+        1448,
+        1086
+      ],
+      "body_height": 1.0676795580110496,
+      "frame_rects": [
+        [
+          128,
+          5,
+          200,
+          402
+        ],
+        [
+          457,
+          4,
+          188,
+          403
+        ],
+        [
+          817,
+          3,
+          192,
+          404
+        ],
+        [
+          1182,
+          16,
+          211,
+          391
+        ],
+        [
+          114,
+          405,
+          202,
+          390
+        ],
+        [
+          467,
+          410,
+          215,
+          385
+        ],
+        [
+          819,
+          414,
+          220,
+          381
+        ],
+        [
+          1184,
+          408,
+          205,
+          387
+        ],
+        [
+          104,
+          799,
+          235,
+          277
+        ],
+        [
+          447,
+          807,
+          253,
+          269
+        ],
+        [
+          804,
+          810,
+          254,
+          266
+        ],
+        [
+          1134,
+          797,
+          290,
+          279
+        ]
+      ],
+      "frame_pivots": [
+        [
+          59,
+          400
+        ],
+        [
+          64,
+          401
+        ],
+        [
+          58.0,
+          402
+        ],
+        [
+          47.0,
+          389
+        ],
+        [
+          51,
+          388
+        ],
+        [
+          48.0,
+          383
+        ],
+        [
+          46,
+          379
+        ],
+        [
+          50.0,
+          385
+        ],
+        [
+          117.5,
+          275
+        ],
+        [
+          126.5,
+          267
+        ],
+        [
+          127.0,
+          264
+        ],
+        [
+          145.0,
+          277
+        ]
+      ],
+      "isolate_components": true
+    }
+  }
+}

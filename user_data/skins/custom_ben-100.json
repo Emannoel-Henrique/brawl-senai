@@ -1,0 +1,11 @@
+{
+  "key": "custom_ben-100",
+  "name": "ben 100",
+  "primary": "#35E5DA",
+  "secondary": "#16313C",
+  "accent": "#F4FFB8",
+  "pattern": "solid",
+  "hat": "none",
+  "sprite": "sprites/custom_ben-100.png",
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "key": "custom_john",
+  "name": "JOHN",
+  "primary": "#ED698C",
+  "secondary": "#ED698C",
+  "accent": "#ED698C",
+  "pattern": "solid",
+  "hat": "none",
+  "sprite": "sprites/custom_john.png",
+  "version": 1
+}
